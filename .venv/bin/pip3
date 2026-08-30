@@ -1,0 +1,8 @@
+#!/Users/donghwan/projects/krafton-jungle/w02-03-ds-algo/SW-AI-W02-03-TEMPLATE/.venv/bin/python3
+# -*- coding: utf-8 -*-
+import re
+import sys
+from pip._internal.cli.main import main
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw|\.exe)?$', '', sys.argv[0])
+    sys.exit(main())
